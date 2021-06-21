@@ -1,0 +1,57 @@
+.body-content{
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+.inputData__content{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.inputData__button p{
+    display: none;
+}
+.processing__item{
+    text-align: center;
+}
+.processing__item a{
+    height: 60px;
+    width: 100%;
+}
+.popAddArr{
+    /* background-color: rgba(17, 17, 17, 0.712); */
+    padding: 10px 0;
+    /* height: 72vh; */
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    transition: top .5s;
+    display: none;
+}
+.popAddArr-showed{
+    display: block;
+}
+.popAddArr-popup{
+    top: 28%;
+}
+.addForm{
+    width: 20%;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+}
+.positionArr{
+    width: 50%;
+    text-align: center;
+}
+small{
+    color: rgb(255, 0, 0);
+}
+.strColor{
+    color: red;
+    font-weight: bold;
+}
