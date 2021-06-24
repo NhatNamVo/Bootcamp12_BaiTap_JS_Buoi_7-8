@@ -50,9 +50,9 @@ getID('minNumber').addEventListener('click', function(){
     var countPosNum = mainArray[arrPossition].filter(function(item){
         return item>0;
     });
-    var min = countPosNum[0];
+    var min = parseFloat(countPosNum[0]);
     for(var item in countPosNum){
-        if(countPosNum[item] < min){
+        if(parseFloat(countPosNum[item]) < min){
             min = countPosNum[item];
         }
     }
