@@ -151,10 +151,10 @@ getID('addArray').addEventListener('click', function(){
 getID('compareNum').addEventListener('click',function(){
     checkArrayQty();
     var posNumber = mainArray[arrPossition].filter(function(item){
-        return item >= 0;
+        return item > 0;
     });
     var negNumber = mainArray[arrPossition].filter(function(item){
-        return item < 0;
+        return item <= 0;
     });
 
     if(posNumber.length>negNumber.length){
