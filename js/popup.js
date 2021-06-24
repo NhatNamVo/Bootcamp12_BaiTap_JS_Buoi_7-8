@@ -8,7 +8,7 @@ getID('addItem').addEventListener('click',function(){
         setTimeout(() => {
             getID('popID').classList.add('popAddArr-popup');
         }, 200);
-        var eleCopy = document.getElementsByClassName('inputData__button')[0].children[1]; 
+        var eleCopy = document.getElementsByClassName('inputData__button')[0].children[1];       
         arrShowItem.appendChild(eleCopy.cloneNode(true));
         arrShowItem.children[arrMount].children[0].innerHTML = arrMount+1;  
     }

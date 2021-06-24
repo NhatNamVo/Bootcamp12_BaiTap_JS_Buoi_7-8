@@ -34,12 +34,12 @@ getID('addArr').addEventListener('click',function(){
 });
 
 function addArray(){
-    console.log(subArr);
+    // console.log(subArr);
     mainArray.push(subArr);
-    console.log(mainArray);
+    // console.log(mainArray);
 }
 
 function delsubArray(){
     subArr = [];
-    subCount++;
+    // subCount++;
 }
